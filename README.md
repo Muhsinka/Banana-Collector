@@ -20,9 +20,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 # Files
 
-The project includes 5 files:
+The project includes 6 files:
 
-navigation.ipynb:File with fully functional code, all code cells executed and displaying output, and all questions answered
+Navigation.ipynb:learning from vector observations with fully functional code, all code cells executed and displaying output.
+
+Navigation_pixels.ipynb: Learning from visual observations partially functinal code needs further improvements 
 
 dqn_agent.py:The Agent class
 
