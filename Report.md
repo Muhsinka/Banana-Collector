@@ -3,9 +3,9 @@
 ## Model Architecture
 The local neural-network have the following structure defined in file model.py:
 
-A fully connected layer with 37 inputs and 128 outputs using ReLU activations
+A fully connected layer with 37 inputs and 128 outputs with ReLU activations
 
-A fully connected layer with 128 inputs and 256 outputs using ReLU activations
+A fully connected layer with 128 inputs and 256 outputs with ReLU activations
 
 A fully connected layer with 256 inputs and 4 outputs
 
@@ -43,7 +43,7 @@ Environment solved in 416 episodes!	Average Score: 13.04
 
 # Possible Future Improvements
 
-This project used the basic DQN algorithm. For further improvements following methods can be applied.
+This project used the basic DQN algorithm from udacity DQN code. For further improvements following methods can be applied.
 
 prioritized experience replay
 
