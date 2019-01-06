@@ -22,21 +22,23 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 The project includes 6 files:
 
-Navigation.ipynb:learning from vector observations with fully functional code, all code cells executed and displaying output.
+Navigation.ipynb: Learning from vector observations with fully functional code, all code cells executed and displaying output.
 
-Navigation_pixels.ipynb: Learning from visual observations partially functinal code needs further improvements 
+Navigation_pixels.ipynb: Learning from visual observations partially functinal code needs further improvements. 
 
-dqn_agent.py:The Agent class
+dqn_agent.py: Definition of the Agent
 
-model.py:The DQN models checkpoint.pth:saved trained model to use
+model.py: The Qnetwork model.
 
-README.md:Description of the project.
+checkpoint.pth:saved trained model to use
 
-Report.md:Description of the model and results
+README.md: Description of the project.
+
+Report.md: Description of the model and results
 
 # Required Modules
 
-This project requires Python 3.5 or higher, the Banana Collector Environment (follow the instructions to download here) and the following Python libraries installed:
+This project requires Python 3.5 or higher, following Python libraries are required:
 
 NumPy
 
