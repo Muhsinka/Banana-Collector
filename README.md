@@ -84,4 +84,18 @@ Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-Step 2:Open Navigation.ipynb and follow the instructions
+Step 2:Open Navigation.ipynb and initiate banana enviroment
+
+Next, before starting the environment utilising the corresponding prebuilt app from Udacity  **_Before running the code cell in the notebbok**, change the `file_name` parameter to match the location of the Unity environment that you downloaded.
+
+- **Mac**: `"path/to/Banana.app"`
+- **Windows** (x86): `"path/to/Banana_Windows_x86/Banana.exe"`
+- **Windows** (x86_64): `"path/to/Banana_Windows_x86_64/Banana.exe"`
+- **Linux** (x86): `"path/to/Banana_Linux/Banana.x86"`
+- **Linux** (x86_64): `"path/to/Banana_Linux/Banana.x86_64"`
+- **Linux** (x86, headless): `"path/to/Banana_Linux_NoVis/Banana.x86"`
+- **Linux** (x86_64, headless): `"path/to/Banana_Linux_NoVis/Banana.x86_64"`
+
+For instance, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
+
+env = UnityEnvironment(file_name="Banana.app")
