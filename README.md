@@ -47,3 +47,31 @@ Torch
 UnityAgents
 
 OpenAI Gym
+
+# Install Guide For Win-64bit
+
+Create new conda enviroment and activate enviroment
+
+Open Anaconda promt and type following:
+```
+conda create -n ml-agents python=3.6
+```
+```
+activate ml-agents
+```
+Install tensorflow
+```
+pip install tensorflow==1.7.1
+```
+Download ML-Agents Toolkit Github Repository
+```
+git clone https://github.com/Unity-Technologies/ml-agents.git
+```
+Type in the Anaconda Prompt within ml-agents subdirectory
+```
+cd C:\Downloads\ml-agents\ml-agents
+```
+To complete the installation of all the required Python packages to run the ML-Agents toolkit type in the following.
+```
+pip install -e .
+```
