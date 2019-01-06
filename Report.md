@@ -1,16 +1,13 @@
 # Project Report
 
-## Model
+## Model Architecture
+The local neural-network have the following structure defined in file model.py:
 
-super(QNetwork, self).__init__()
+A fully connected layer with 37 inputs and 128 outputs using ReLU activations
 
-self.seed = torch.manual_seed(seed)
+A fully connected layer with 128 inputs and 256 outputs using ReLU activations
 
-self.fc1 = nn.Linear(state_size, fc1_units)
-
-self.fc2 = nn.Linear(fc1_units, fc2_units)
-
-self.fc3 = nn.Linear(fc2_units, action_size)
+A fully connected layer with 256 inputs and 4 outputs
 
 # Parameters used in DQN algorithm
 
