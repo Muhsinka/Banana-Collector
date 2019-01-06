@@ -84,9 +84,9 @@ Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-Step 2:Open Navigation.ipynb and initiate banana enviroment
+Step 2:Open Navigation.ipynb and start the banana enviroment
 
-Next, before starting the environment utilising the corresponding prebuilt app from Udacity  **_Before running the code cell in the notebbok**, change the `file_name` parameter to match the location of the Unity environment that you downloaded.
+Before starting the environment utilising the corresponding prebuilt app from Udacity  **_Before running the code cell in the notebbok**, change the `file_name` parameter to match the location of the Unity environment that you downloaded.
 
 - **Mac**: `"path/to/Banana.app"`
 - **Windows** (x86): `"path/to/Banana_Windows_x86/Banana.exe"`
