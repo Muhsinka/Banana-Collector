@@ -75,3 +75,13 @@ To complete the installation of all the required Python packages to run the ML-A
 ```
 pip install -e .
 ```
+# How to get started
+
+Step 1:Install unity banana enviroment and place it in ml-agents file that we have downloaded
+
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+Step 2:Open Navigation.ipynb and follow the instructions
