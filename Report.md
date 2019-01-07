@@ -43,10 +43,22 @@ Environment solved in 416 episodes!	Average Score: 13.04
 
 # Possible Future Improvements
 
-This project used the basic DQN algorithm from udacity DQN code. For further improvements following methods can be applied.
+1-This project used the basic DQN algorithm from udacity DQN code. For further improvements following methods can be applied.
 
 prioritized experience replay
 
 double DQN
 
 dueling DQN
+
+2-Different hyperparameter settings can implemented for faster learning. increasing learning rate can make the agent to finish the task less then 400 episodes
+
+3-Larger Qnetwork can be implemented for more accurate learning
+
+4-Learning from visual observation can be a better and more accurate way for an agent to learn the enviroment
+
+5-Convolutional neural network that processes pixel images can be implemented for further development
+
+6-Neural Episodic Control can be implemented
+
+
